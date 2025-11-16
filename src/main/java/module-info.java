@@ -13,4 +13,6 @@ module org.projetos.workshopjavafxjdbc {
 
     opens org.projetos.workshopjavafxjdbc to javafx.fxml;
     exports org.projetos.workshopjavafxjdbc;
+    exports org.projetos.workshopjavafxjdbc.gui;
+    opens org.projetos.workshopjavafxjdbc.gui to javafx.fxml;
 }
