@@ -32,7 +32,7 @@ public class MainViewController implements Initializable {
     }
     @FXML
     private void onMenuItemDepartmentAction() {
-        loadView("/org/projetos/workshopjavafxjdbc/gui/DepartamentList.fxml");
+        loadView("/org/projetos/workshopjavafxjdbc/gui/DepartmentList.fxml");
     }
     @FXML
     private void onMenuItemAboutAction() {
@@ -57,6 +57,7 @@ public class MainViewController implements Initializable {
 
         } catch (IOException e) {
             Alerts.showAlert("IO Exception", "Erro Loading View", e.getMessage(), Alert.AlertType.ERROR);
+            e.printStackTrace();
         }
     }
 
