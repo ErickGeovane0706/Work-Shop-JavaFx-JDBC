@@ -1,4 +1,5 @@
 module org.projetos.workshopjavafxjdbc {
+    opens org.projetos.workshopjavafxjdbc.model.entities to javafx.base;
     requires javafx.controls;
     requires javafx.fxml;
     requires javafx.web;
