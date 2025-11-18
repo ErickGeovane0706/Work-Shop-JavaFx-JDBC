@@ -113,11 +113,10 @@
         </dependency>
         <!-- MySQL Connector -->
         <dependency>
-            <groupId>mysql</groupId>
+            <groupId>com.mysql</groupId>
             <artifactId>mysql-connector-j</artifactId>
-            <version>9.0.0</version>
+            <version>9.1.0</version>
         </dependency>
-
         <!-- (Opcional) SLF4J para logs -->
         <dependency>
             <groupId>org.slf4j</groupId>

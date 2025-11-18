@@ -11,6 +11,7 @@ module org.projetos.workshopjavafxjdbc {
     requires org.kordamp.bootstrapfx.core;
     requires eu.hansolo.tilesfx;
     requires com.almasb.fxgl.all;
+    requires java.sql;
 
     opens org.projetos.workshopjavafxjdbc to javafx.fxml;
     exports org.projetos.workshopjavafxjdbc;
